@@ -1,23 +1,4 @@
-#include<stdio.h>
-int main(){
-    int n,e;
-    float a[10][10];
-    printf("enter order of matrix and tolerance error");
-    scanf("%d%d",&n,&e);
-    for(int i = 0 ; i < n;i++){
-        for(int j = 0; j < n;j++){
-            printf("enter a[%d][%d]: ",i+1,j+1);
-            scanf("%f",&a[i][j]);
-        }
-    }
-    float x[10];
-    for(int i = 0 ; i < n;i++){
-        printf("enter eigen vector: ");
-        scanf("%")
-    }
-}
-
-/*#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 int main()
@@ -81,4 +62,4 @@ int main()
         goto up;
     }
     return 0;
-}*/
+}
